@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(220, 225, 228);
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+}
+.whole {
+    border: 2px solid #787575;
+    height: 567px;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: row;
+    background-color: #787575
+    
+    
+}
+.container {
+    /* border: 2px solid red; */
+    margin: 21px;
+    height: 506px;
+    width: 50%;
+    /* display: flex; */
+}
+
+#c1{
+    background-color: white;
+    border-color: white;
+   
+}
+#c2{
+    background-color: black;
+    border-color: black;
+   
+}
+#c3{
+    background-color: white;
+    border-color: white;
+}
+#content1 {
+    background-color: black;
+    border: 2px solid black;
+    height: 436px;
+    margin: 32px;
+    border-top-right-radius: 133px;
+}
+#content1>p {
+    color: white;
+    MARGIN-TOP: 101PX;
+    font-size: 36px;
+    margin-left: 68px;
+}
+#content2 {
+    border: 2px solid white;
+    background-color: white;
+    height: 436px;
+    margin: 32px;
+    border-bottom-left-radius: 133px;
+    /* flex-wrap: wrap; */
+}
+#content2>p {
+    color: black;
+    MARGIN-TOP: 216PX;
+    font-size: 36px;
+    margin-left: 68px;
+}
+#content3 {
+   
+    background-color: black;
+    border: 2px solid black;
+    height: 436px;
+    margin: 32px;
+    border-bottom-right-radius: 133px;
+    /* flex-wrap: wrap; */
+}
+#date1 {
+    position: absolute;
+    color: white;
+    MARGIN-TOP: 101PX;
+    font-size: 89px;
+    margin-left: 42px;
+    font-weight: bold;
+}
+#design{
+    position: absolute;
+    color: white;
+    MARGIN-TOP: 219PX;
+    font-size: 22px;
+    margin-left: 47px;
+}
+/* .forwrap{
+    flex-wrap: wrap;
+} */
+h6{
+    color: white;
+}
+hr{
+    margin-top: 303px;
+    margin-left: 46px;
+    margin-right: 256px;
+}
